@@ -68,7 +68,7 @@
 
 <!-- third-child -->
  <div class="bg-light">
-  <h3 class="text-center">Hidden Store</h3>
+  <h1 class="text-center">T1 SHOP</h1>
   <p class="text-center">Communications is at the heart of e-commerce and community</p>
  </div>
 
@@ -83,6 +83,7 @@
             getproducts();
             get_unique_categories();
             get_unique_brands();
+            cart();
          ?>
   <!-- row end -->
     </div>

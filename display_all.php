@@ -83,6 +83,7 @@
             get_all_products();
             get_unique_categories();
             get_unique_brands();
+            cart();
          ?>
   <!-- row end -->
     </div>

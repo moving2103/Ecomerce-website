@@ -46,7 +46,7 @@
           <a class="nav-link" href="#">Tổng tiền:</a>
         </li>
       </ul>
-      <form class="d-flex" action="" method="get">
+      <form class="d-flex" action="search_product.php" method="get">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_data">
         <input type="submit" value="Tìm kiếm" class="btn btn-outline-light" name="search_data_product">
       </form>
@@ -80,7 +80,7 @@
         <!-- fetching products -->
          <?php
          //calling function
-            search_product();
+            view_details();
             get_unique_categories();
             get_unique_brands();
             cart();
